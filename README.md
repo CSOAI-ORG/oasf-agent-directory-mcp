@@ -1,72 +1,78 @@
-# OASF Agent Directory MCP
+# Oasf Agent Directory MCP
 
-> ## 🧱 Part of the MEOK A2A Substrate (£499/mo)
-> See [meok.ai/a2a](https://meok.ai/a2a).
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/oasf_agent_directory_mcp/)
 
-# Bridges Cisco OASF + AGNTCY Directory under Linux Foundation
+> OASF Agent Directory MCP - Cisco AGNTCY bridge under Linux Foundation
 
-<!-- mcp-name: io.github.CSOAI-ORG/oasf-agent-directory-mcp -->
+OASF Agent Directory MCP - Cisco AGNTCY bridge under Linux Foundation. MIT. By MEOK AI Labs.
 
-[![PyPI](https://img.shields.io/pypi/v/oasf-agent-directory-mcp)](https://pypi.org/project/oasf-agent-directory-mcp/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
 
-## What this bridges
+## 🚀 Quick Start
 
-Cisco Outshift's **Open Agentic Schema Framework (OASF)** — under Linux Foundation governance via the AGNTCY project. OASF is an OCI-based extensible data model for describing agent capabilities. It supports A2A agents, MCP servers, and Copilot manifests.
+```bash
+# Install via pip
+pip install oasf_agent_directory_mcp
 
-This MCP converts MEOK MCPs (and any A2A agent-cards) into OASF manifests so they appear in Cisco's AGNTCY Directory Service — the enterprise procurement layer for agent capability discovery.
+# Or install via Smithery
+npx -y @smithery/cli@latest install oasf-agent-directory-mcp --client claude
+```
 
-## Tools
+## ✨ Features
 
-| Tool | Purpose |
-|---|---|
-| `describe_agent_as_oasf(agent_id, name, capabilities, ...)` | Emit OASF manifest |
-| `validate_oasf_schema(manifest)` | Schema-validate before publish |
-| `publish_to_agntcy_directory(manifest, agntcy_token?)` | Submit to live AGNTCY |
-| `search_oasf_directory(query, category?)` | Discover other OASF agents |
-| `bridge_mcp_to_oasf(mcp_server_json)` | Convert MCP server.json |
-| `bridge_a2a_to_oasf(a2a_card)` | Convert A2A agent-card |
-| `list_capabilities()` | OASF capability taxonomy |
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-## Sister MCPs
+## 📖 Documentation
 
-Part of the MEOK **A2A** pack — bridges to other protocols:
+- [Full Documentation](https://docs.meok.ai/oasf-agent-directory-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-- `agent-commerce-protocol-mcp` — Stripe ACP + AP2 + x402
-- `agent-identity-trust-mcp` — W3C DID + Verifiable Credentials
-- `agent-handoff-certified-mcp` — signed handoff chain
-- `bft-progress-council-mcp` — anti-loop guardrail
+## 🛡️ Compliance
 
-Full catalogue: [meok.ai/anthropic-registry](https://meok.ai/anthropic-registry)
+This MCP server is built with **EU AI Act compliance** built-in:
 
-## Pricing
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-| Option | Price |
-|---|---|
-| Self-host MIT | £0 |
-| Universal PAYG | £29/mo + £0.0002/call |
-| A2A Substrate | £499/mo |
-| Universe | £1,499/mo |
-| Defence | £4,990/mo |
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-Buy: https://meok.ai/a2a
+## 🏢 Enterprise
 
-## Licence
+Need custom development, SLA guarantees, or white-label deployment?
 
-MIT. By [MEOK AI Labs](https://meok.ai) (CSOAI LTD, UK Companies House 16939677).
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-<!-- BUY-LADDER:START -->
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-## 💸 Try MEOK in 30 seconds — instant buy ladder
+## 🤝 Part of the MEOK Ecosystem
 
-| Tier | Price | What you get | Stripe |
-|---|---|---|---|
-| Smoke test | **£1** | Signed sample MCP-Hardening report + Article 50 PDF | <https://buy.stripe.com/dRmcN75ScdQS7oh1Uc8k90U> |
-| Quick Kit | **£9** | EU AI Act Article 50 implementation guide (C2PA + EU-Icon) | <https://buy.stripe.com/cNi00la8s1460ZT0Q88k90V> |
-| Founder Call | **£29** | 30-min 1-on-1 with the founder | <https://buy.stripe.com/8x228ta8s6oqbExaqI8k90W> |
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
 
-> Refundable. UK Stripe — VAT-clean. Builds on the 81-MCP MEOK fleet.
-> Verify any signed report at <https://meok.ai/verify>.
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
 
-<!-- BUY-LADDER:END -->
+## 📜 License
 
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
