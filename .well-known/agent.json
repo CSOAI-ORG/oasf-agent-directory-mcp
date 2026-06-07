@@ -1,0 +1,86 @@
+{
+  "name": "oasf-agent-directory-mcp",
+  "description": "OASF Agent Directory MCP \u2014 bridges Cisco's Open Agentic Schema Framework + AGNTCY directory under",
+  "url": "https://proofof.ai/scorecard/oasf-agent-directory-mcp.html",
+  "version": "1.0.1",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "describe_agent_as_oasf",
+      "name": "Describe Agent As Oasf",
+      "description": "describe_agent_as_oasf via oasf-agent-directory-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_oasf_schema",
+      "name": "Validate Oasf Schema",
+      "description": "validate_oasf_schema via oasf-agent-directory-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "publish_to_agntcy_directory",
+      "name": "Publish To Agntcy Directory",
+      "description": "publish_to_agntcy_directory via oasf-agent-directory-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "search_oasf_directory",
+      "name": "Search Oasf Directory",
+      "description": "search_oasf_directory via oasf-agent-directory-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "bridge_mcp_to_oasf",
+      "name": "Bridge Mcp To Oasf",
+      "description": "bridge_mcp_to_oasf via oasf-agent-directory-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "bridge_a2a_to_oasf",
+      "name": "Bridge A2A To Oasf",
+      "description": "bridge_a2a_to_oasf via oasf-agent-directory-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "list_capabilities",
+      "name": "List Capabilities",
+      "description": "list_capabilities via oasf-agent-directory-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

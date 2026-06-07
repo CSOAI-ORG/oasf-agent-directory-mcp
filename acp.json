@@ -1,0 +1,25 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "oasf-agent-directory-mcp",
+    "description": "OASF Agent Directory MCP \u2014 bridges Cisco's Open Agentic Schema Framework + AGNTCY directory under",
+    "version": "1.0.1",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "oasf-agent-directory-mcp"
+      }
+    ],
+    "capabilities": [
+      "describe_agent_as_oasf",
+      "validate_oasf_schema",
+      "publish_to_agntcy_directory",
+      "search_oasf_directory",
+      "bridge_mcp_to_oasf",
+      "bridge_a2a_to_oasf",
+      "list_capabilities"
+    ]
+  }
+}
