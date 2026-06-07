@@ -1,0 +1,23 @@
+# oasf-agent-directory-mcp
+
+> OASF / AGNTCY agent directory MCP — bridges Cisco's Open Agentic Schema Framework to MCP + A2A. Linux Foundation governed. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- describe_agent_as_oasf
+- validate_oasf_schema
+- publish_to_agntcy_directory
+- search_oasf_directory
+- bridge_mcp_to_oasf
+- bridge_a2a_to_oasf
+- list_capabilities
+
+## Install
+```
+pip install oasf-agent-directory-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/oasf-agent-directory-mcp/
+- Docs: https://meok.ai

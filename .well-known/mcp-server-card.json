@@ -1,0 +1,34 @@
+{
+  "name": "oasf-agent-directory-mcp",
+  "title": "Oasf Agent Directory Mcp",
+  "description": "OASF / AGNTCY agent directory MCP \u2014 bridges Cisco's Open Agentic Schema Framework to MCP + A2A. Linux Foundation governed. By MEOK AI Labs.",
+  "version": "1.0.1",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "describe_agent_as_oasf"
+    },
+    {
+      "name": "validate_oasf_schema"
+    },
+    {
+      "name": "publish_to_agntcy_directory"
+    },
+    {
+      "name": "search_oasf_directory"
+    },
+    {
+      "name": "bridge_mcp_to_oasf"
+    },
+    {
+      "name": "bridge_a2a_to_oasf"
+    },
+    {
+      "name": "list_capabilities"
+    }
+  ]
+}

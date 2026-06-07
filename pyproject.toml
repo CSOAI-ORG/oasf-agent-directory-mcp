@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "oasf-agent-directory-mcp"
-version = "1.0.0"
+version = "1.0.1"
 description = "OASF / AGNTCY agent directory MCP — bridges Cisco's Open Agentic Schema Framework to MCP + A2A. Linux Foundation governed. By MEOK AI Labs."
 readme = "README.md"
 license = { text = "MIT" }
