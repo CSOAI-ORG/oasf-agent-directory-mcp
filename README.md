@@ -1,3 +1,4 @@
+<!-- mcp-name: io.github.CSOAI-ORG/oasf-agent-directory-mcp -->
 [![MCP Scorecard: 88/100](https://img.shields.io/badge/proofof.ai-88%2F100-5b21b6)](https://proofof.ai/scorecard/oasf-agent-directory-mcp.html)
 
 # Oasf Agent Directory MCP
