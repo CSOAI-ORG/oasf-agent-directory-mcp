@@ -1,8 +1,8 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/oasf-agent-directory-mcp",
-  "version": "1.0.0",
-  "description": "OASF Agent Directory MCP \u2014 bridges Cisco's Open Agentic Schema Framework + AGNTCY directory under",
+  "version": "1.0.1",
+  "description": "OASF Agent Directory MCP — bridges Cisco's Open Agentic Schema Framework + AGNTCY directory under",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/oasf-agent-directory-mcp",
     "source": "github"
@@ -11,7 +11,7 @@
     {
       "registryType": "pypi",
       "identifier": "oasf-agent-directory-mcp",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "runtimeHint": "python",
       "transport": {
         "type": "stdio"
