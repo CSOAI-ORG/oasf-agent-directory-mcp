@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "oasf-agent-directory-mcp": {
+      "command": "uvx",
+      "args": [
+        "oasf-agent-directory-mcp"
+      ]
+    }
+  }
+}
