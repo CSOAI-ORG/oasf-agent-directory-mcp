@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: oasf-agent-directory-mcp
-Version: 1.0.1
+Version: 1.0.2
 Summary: OASF / AGNTCY agent directory MCP — bridges Cisco's Open Agentic Schema Framework to MCP + A2A. Linux Foundation governed. By MEOK AI Labs.
 Author-email: Nicholas Templeman <nicholas@meok.ai>
 License: MIT

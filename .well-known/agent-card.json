@@ -1,0 +1,151 @@
+{
+  "name": "Oasf Agent Directory Mcp",
+  "version": "1.0.1",
+  "url": "https://mcp.meok.ai/oasf-agent-directory-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "OASF / AGNTCY agent directory MCP — bridges Cisco's Open Agentic Schema Framework to MCP + A2A. Linux Foundation governed. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "describe_agent_as_oasf",
+      "name": "Describe Agent As Oasf",
+      "description": "Describe Agent As Oasf — a tool of the oasf-agent-directory-mcp MCP.",
+      "tags": [
+        "agent",
+        "a2a"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "validate_oasf_schema",
+      "name": "Validate Oasf Schema",
+      "description": "Validate Oasf Schema — a tool of the oasf-agent-directory-mcp MCP.",
+      "tags": [
+        "agent",
+        "a2a"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "publish_to_agntcy_directory",
+      "name": "Publish To Agntcy Directory",
+      "description": "Publish To Agntcy Directory — a tool of the oasf-agent-directory-mcp MCP.",
+      "tags": [
+        "agent",
+        "a2a"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "search_oasf_directory",
+      "name": "Search Oasf Directory",
+      "description": "Search Oasf Directory — a tool of the oasf-agent-directory-mcp MCP.",
+      "tags": [
+        "agent",
+        "a2a"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "bridge_mcp_to_oasf",
+      "name": "Bridge Mcp To Oasf",
+      "description": "Bridge Mcp To Oasf — a tool of the oasf-agent-directory-mcp MCP.",
+      "tags": [
+        "agent",
+        "a2a"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "bridge_a2a_to_oasf",
+      "name": "Bridge A2A To Oasf",
+      "description": "Bridge A2A To Oasf — a tool of the oasf-agent-directory-mcp MCP.",
+      "tags": [
+        "agent",
+        "a2a"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "list_capabilities",
+      "name": "List Capabilities",
+      "description": "List Capabilities — a tool of the oasf-agent-directory-mcp MCP.",
+      "tags": [
+        "agent",
+        "a2a"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "oasf-agent-directory-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
