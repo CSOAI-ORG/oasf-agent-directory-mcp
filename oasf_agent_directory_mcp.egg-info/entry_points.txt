@@ -1,2 +1,0 @@
-[console_scripts]
-oasf-agent-directory-mcp = server:main
